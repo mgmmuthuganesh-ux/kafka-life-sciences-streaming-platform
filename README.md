@@ -1,4 +1,44 @@
 ߧ Industry: Life Sciences / Pharma
+# Kafka Life Sciences Streaming Platform
+
+## Overview
+This project demonstrates a real-time data streaming platform for life sciences and pharmaceutical companies using Apache Kafka and Confluent Cloud.
+
+## Business Use Case
+Pharma enterprises require real-time visibility into SAP orders, lab results, and manufacturing shop-floor events. This platform streams database changes and events in real time to enable faster decision-making, monitoring, and compliance.
+
+## Architecture
+The platform uses CDC-based ingestion, Kafka stream processing, and cloud-native sinks for analytics and storage.
+
+## Tech Stack
+- Apache Kafka (Confluent Cloud)
+- Kafka Connect (Debezium, S3, Snowflake)
+- KSQLDB
+- AWS (RDS, S3)
+- Docker & GitHub Actions
+- Grafana
+
+## Data Flow
+1. MySQL databases generate CDC events
+2. Kafka Connect ingests changes into Kafka topics
+3. KSQLDB processes and aggregates streams
+4. Data is delivered to S3 and Snowflake
+5. Grafana monitors topics and connectors
+
+## Project Structure
+(Explain folders here)
+
+## Setup & Execution
+(To be added)
+
+## Monitoring
+(To be added)
+
+## Screenshots
+(To be added)
+
+## Learnings & Best Practices
+(To be added)
 
 Problem Statement
 
