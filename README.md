@@ -1,19 +1,19 @@
-<<<<<<< HEAD
+
 # Kafka Life Sciences Streaming Platform
 
-**Industry:** Life Sciences / Pharmaceutical  
-**Domain:** Real-Time Data Streaming & Event-Driven Architecture
-
----
+Industry: Life Sciences / Pharma
 
 ## Overview
+This project demonstrates a real-time data streaming platform using Apache Kafka and Debezium CDC.
+
+
 
 This repository showcases a **real-time event streaming platform** designed for life sciences and pharmaceutical enterprises.  
 The platform enables **low-latency visibility**, **regulatory compliance**, and **operational monitoring** by streaming data changes from core enterprise systems using Apache Kafka.
 
 The implementation follows **production-grade architecture patterns** commonly used in pharma manufacturing, labs, and supply chain systems.
 
----
+
 
 ## Business Problem
 
@@ -31,8 +31,7 @@ These batch systems cause:
 - Slow incident detection and response
 - Inability to react in real time
 
----
-
+ 
 ## Solution
 
 This project demonstrates a **Kafka-based real-time streaming platform** that:
@@ -43,7 +42,6 @@ This project demonstrates a **Kafka-based real-time streaming platform** that:
 - Delivers data to analytics and storage systems
 - Provides observability and monitoring
 
----
 
 ## High-Level Architecture
 
@@ -62,7 +60,6 @@ Kafka Connect (Sinks)
 
 
 
----
 
 ## Technology Stack
 
@@ -78,7 +75,6 @@ Kafka Connect (Sinks)
 - **Grafana & Prometheus**
 - **GitHub Actions (CI/CD)**
 
----
 
 ## Project Structure
 
@@ -92,7 +88,6 @@ Kafka Connect (Sinks)
 └── README.md
 
 
----
 
 ## Setup & Execution
 
@@ -107,7 +102,7 @@ Steps include:
 
 (Detailed steps will be added.)
 
----
+
 
 ## Monitoring & Observability
 
@@ -118,7 +113,7 @@ Steps include:
   - Connector health
   - Error rates
 
----
+
 
 ## Key Learnings & Best Practices
 
@@ -127,7 +122,7 @@ Steps include:
 - Schema evolution and error handling are critical in regulated domains
 - Monitoring is as important as data movement in production systems
 
----
+
 
 ## Ownership & Responsibilities
 
@@ -139,7 +134,7 @@ This project was designed and implemented end-to-end, including:
 - Observability and monitoring setup
 - CI/CD automation
 
----
+
 
 ## Use Cases
 
@@ -153,6 +148,7 @@ This project was designed and implemented end-to-end, including:
 
 
 
+<<<<<<< HEAD
 Monitoring & Alerting (Grafana / Prometheus)
 =======
 ߧ Industry: Life Sciences / Pharma
@@ -247,3 +243,6 @@ Kafka Connect (Sinks)
         ↓
 Grafana Monitoring
 >>>>>>> c71f538 (Day 1: Kafka, Zookeeper, and CDC-ready MySQL foundation)
+=======
+Monitoring & Alerting (Grafana / Prometheus
+>>>>>>> 5029c1346e0b1b8218e317f9ccaf6a6185a50489
