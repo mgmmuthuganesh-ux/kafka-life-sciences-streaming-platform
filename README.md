@@ -1,11 +1,11 @@
 # Kafka Life Sciences Streaming Platform
 
-**Industry:** Life Sciences / Pharmaceutical  
-**Domain:** Real-Time Data Streaming & Event-Driven Architecture
-
----
+Industry: Life Sciences / Pharma
 
 ## Overview
+This project demonstrates a real-time data streaming platform using Apache Kafka and Debezium CDC.
+...
+
 
 This repository showcases a **real-time event streaming platform** designed for life sciences and pharmaceutical enterprises.  
 The platform enables **low-latency visibility**, **regulatory compliance**, and **operational monitoring** by streaming data changes from core enterprise systems using Apache Kafka.
@@ -138,7 +138,7 @@ This project was designed and implemented end-to-end, including:
 - Observability and monitoring setup
 - CI/CD automation
 
----
+
 
 ## Use Cases
 
@@ -152,4 +152,4 @@ This project was designed and implemented end-to-end, including:
 
 
 
-Monitoring & Alerting (Grafana / Prometheus)
+Monitoring & Alerting (Grafana / Prometheus
