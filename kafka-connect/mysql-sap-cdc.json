@@ -1,0 +1,23 @@
+{
+  "name": "mysql-sap-cdc-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+
+    "database.hostname": "mysql",
+    "database.port": "3306",
+    "database.user": "root",
+    "database.password": "root",
+
+    "database.server.id": "184054",
+    "database.include.list": "sap",
+    "table.include.list": "sap.material_orders",
+
+    "topic.prefix": "sap",
+
+    "schema.history.internal.kafka.bootstrap.servers": "kafka:29092",
+    "schema.history.internal.kafka.topic": "schema-changes.sap",
+
+    "snapshot.mode": "initial",
+    "include.schema.changes": "true"
+  }
+}
