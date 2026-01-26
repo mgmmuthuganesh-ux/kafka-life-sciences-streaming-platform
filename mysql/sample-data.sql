@@ -1,3 +1,9 @@
+
+INSERT INTO sap.material_orders
+(material_code, plant, quantity, order_status)
+VALUES ('MAT-INIT-1', 'INIT-PLANT', 1000, 'CREATED');
+
+
 AWS RDS-> create databases - add inbound ruls for mysql and create parameters group and enable below values must and apply immediatly 
 Step 1: Create MySQL in AWS RDS (Browser)
 AWS Console → RDS → Create database
