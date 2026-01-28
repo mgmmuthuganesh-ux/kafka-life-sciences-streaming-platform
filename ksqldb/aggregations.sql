@@ -1,1 +1,6 @@
+-- Real-time plant-wise aggregation
+CREATE TABLE orders_by_plant AS ...
+
+-- Alert stream for high-volume orders
+CREATE STREAM high_quantity_orders AS ...
 
