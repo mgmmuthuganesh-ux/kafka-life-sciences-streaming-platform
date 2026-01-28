@@ -6,6 +6,12 @@
 - Used ksqlDB to flatten CDC envelopes
 - Demonstrated real-time data flow from MySQL → Kafka → ksqlDB
 - Applied offset management for historical replay
+## Day 4 – Real-time Analytics & Alerts
+
+- Built business-ready Kafka streams using ksqlDB
+- Created real-time aggregations (orders per plant)
+- Implemented alert streams for high-volume orders
+- Prepared data for analytics sinks (S3 / Snowflake)
 
 
 
