@@ -1,1 +1,11 @@
+-- Day 3: Clean CDC stream
+
+## Day 3 – Real-time Stream Processing (ksqlDB)
+
+- Created cleaned streams from Debezium CDC topics
+- Used ksqlDB to flatten CDC envelopes
+- Demonstrated real-time data flow from MySQL → Kafka → ksqlDB
+- Applied offset management for historical replay
+
+
 
