@@ -153,6 +153,9 @@ This project was designed and implemented end-to-end, including:
 - CI/CD automation
 
 
+## CI/CD
+This project includes a GitHub Actions pipeline that validates Kafka, Docker, and CDC configurations before deployment.
+
 
 ## Use Cases
 
