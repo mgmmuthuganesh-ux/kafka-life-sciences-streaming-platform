@@ -5,10 +5,10 @@
 
     "database.hostname": "mysql",
     "database.port": "3306",
-    "database.user": "root",
-    "database.password": "root",
+    "database.user": "",
+    "database.password": "",
 
-    "database.server.id": "184054",
+    "database.server.id": "",
     "database.server.name": "sap",
 
     "database.include.list": "sap",
