@@ -51,3 +51,9 @@ This pattern is commonly used in:
 - Binlog format must be ROW
 - server-id must be unique
 - Schema history topic must exist
+
+## S3-sink.json connector
+This connector is provided as a reference template. Credentials are not committed.
+
+## snowflake-sink.json connector
+Used in production environments; credentials excluded for security.
