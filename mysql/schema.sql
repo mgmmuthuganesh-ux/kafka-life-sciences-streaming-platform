@@ -4,9 +4,11 @@ USE sap;
 
 CREATE TABLE material_orders (
   order_id INT AUTO_INCREMENT PRIMARY KEY,
-  material_code VARCHAR(50),
-  plant VARCHAR(50),
-  quantity INT,
-  order_status VARCHAR(20),
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  material_code VARCHAR(50) NOT NULL,
+  plant VARCHAR(50) NOT NULL,
+  quantity INT NOT NULL,
+  order_status VARCHAR(30),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ON UPDATE CURRENT_TIMESTAMP
 );
