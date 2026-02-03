@@ -13,7 +13,8 @@ Traditional batch systems cause delays, compliance risks, and slow incident resp
 
 ## High-Level Architecture
 
-(kafka-life-sciences-architecture.png)
+![Architecture Diagram](Kafka%20Life%20Sciences%20Streaming%20Platform.png)
+
 
 ---
 
