@@ -96,12 +96,19 @@ Detailed architecture documentation:
 ## Project Structure
 
 ├── docker-compose.yml # Kafka, Zookeeper, MySQL
+|
 ├── mysql/ # SAP-style schemas & CDC setup
+|
 ├── kafka-connect/ # Source & sink connector configs
+|
 ├── ksqldb/ # Stream processing & aggregations
+|
 ├── monitoring/ # Observability & alerting strategy
+|
 ├── architecture/ # Architecture diagrams & explanation
+|
 ├── ci-cd/ # GitHub Actions pipelines
+|
 └── README.md
 
 
