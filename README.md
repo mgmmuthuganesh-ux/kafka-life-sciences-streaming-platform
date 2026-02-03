@@ -131,6 +131,10 @@ This project uses ksqlDB to:
 
 ## Monitoring & Observability
 
+The platform includes a production-grade monitoring strategy
+covering Kafka brokers, CDC pipelines, stream processing,
+and analytics delivery.
+
 - Kafka broker and connector metrics are exposed via Prometheus
 - Grafana dashboards provide visibility into:
   - Topic throughput
