@@ -1,6 +1,14 @@
--- Real-time plant-wise aggregation
-CREATE TABLE orders_by_plant AS ...
+-- =========================================================
+-- AGGREGATIONS.SQL
+-- Purpose: Real-time analytics using ksqlDB TABLEs
+-- =========================================================
 
--- Alert stream for high-volume orders
-CREATE STREAM high_quantity_orders AS ...
-
+-- Orders per plant (real-time)
+CREATE TABLE orders_by_plant AS
+SELECT
+  PLANT,
+  COUNT(*)      AS TOTAL_ORDERS,
+  SUM(QUANTITY) AS TOTAL_QUANTITY
+FROM material_orders_clean
+GROUP BY PLANT
+EMIT CHANGES;
