@@ -1,1 +1,12 @@
-
+{
+  "name": "snowflake-material-orders-sink",
+  "config": {
+    "connector.class": "com.snowflake.kafka.connector.SnowflakeSinkConnector",
+    "topics": "sap.sap.material_orders",
+    "snowflake.url.name": "<account>.snowflakecomputing.com",
+    "snowflake.user.name": "<user>",
+    "snowflake.database.name": "PHARMA_ANALYTICS",
+    "snowflake.schema.name": "STREAMING",
+    "snowflake.warehouse.name": "COMPUTE_WH"
+  }
+}
