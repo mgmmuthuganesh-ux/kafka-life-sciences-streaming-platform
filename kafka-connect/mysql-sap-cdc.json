@@ -9,15 +9,19 @@
     "database.password": "root",
 
     "database.server.id": "184054",
+    "database.server.name": "sap",
+
     "database.include.list": "sap",
     "table.include.list": "sap.material_orders",
 
     "topic.prefix": "sap",
 
-    "schema.history.internal.kafka.bootstrap.servers": "kafka:29092",
-    "schema.history.internal.kafka.topic": "schema-changes.sap",
+    "database.history.kafka.bootstrap.servers": "kafka:29092",
+    "database.history.kafka.topic": "schema-changes.sap",
 
+    "include.schema.changes": "true",
     "snapshot.mode": "initial",
-    "include.schema.changes": "true"
+
+    "name": "mysql-sap-cdc-connector"
   }
 }
