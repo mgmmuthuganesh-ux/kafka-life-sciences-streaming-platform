@@ -1,1 +1,37 @@
+name: Kafka Streaming Platform CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate required folders
+        run: |
+          test -d kafka-connect
+          test -d ksqldb
+          test -d mysql
+          test -d architecture
+
+      - name: Validate docker-compose.yml
+        run: |
+          docker compose -f docker-compose.yml config
+
+      - name: Validate Kafka Connect JSON files
+        run: |
+          sudo apt-get install -y jq
+          for file in kafka-connect/*.json; do
+            echo "Validating $file"
+            jq empty "$file"
+          done
+
+      - name: CI validation completed
+        run: echo "Kafka streaming CI checks passed"
 
