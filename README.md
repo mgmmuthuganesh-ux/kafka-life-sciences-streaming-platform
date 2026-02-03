@@ -120,6 +120,13 @@ Steps include:
 
 (Detailed steps will be added.)
 
+## Stream Processing (ksqlDB)
+
+This project uses ksqlDB to:
+- Flatten Debezium CDC events
+- Create business-ready Kafka streams
+- Perform real-time aggregations
+- Detect anomalies and trigger alerts
 
 
 ## Monitoring & Observability
